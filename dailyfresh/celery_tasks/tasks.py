@@ -16,7 +16,7 @@ from goods.models import GoodsType,IndexGoodsBanner,IndexPromotionBanner,IndexTy
 from django_redis import get_redis_connection
 
 # 创建一个Celery类的实例对象
-app = Celery('celery_tasks.tasks', broker='redis://192.168.121.128:6379/0')
+app = Celery('celery_tasks.tasks', broker='redis://192.168.121.131:6379/0')
 
 
 # 定义任务函数

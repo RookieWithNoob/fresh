@@ -89,7 +89,7 @@ DATABASES = {
         'PORT': 3306,
         'USER': 'root',
         'PASSWORD': 'mysql',
-        'HOST': '192.168.121.128',
+        'HOST': '192.168.121.131',
     }
 }
 
@@ -115,7 +115,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 # 指定收集静态文件的路径
-STATIC_ROOT = '/home/python/桌面/static'
+# STATIC_ROOT = '/home/python/桌面/static'
 
 # 富文本编辑器配置
 TINYMCE_DEFAULT_CONFIG = {
@@ -141,7 +141,7 @@ EMAIL_FROM = '天天生鲜<1105067343@qq.com>'
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://192.168.121.128:6379/1",
+        "LOCATION": "redis://192.168.121.131:6379/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
@@ -162,7 +162,7 @@ DEFAULT_FILE_STORAGE = 'utils.fdfs.storage.FDFSStorage'
 FDFS_CLIENT_CONF = './utils/fdfs/client.conf'
 
 # 设置fdfs存储服务器上nginx的IP和端口号
-FDFS_URL = 'http://192.168.121.128:8888/'
+FDFS_URL = 'http://192.168.121.131:8888/'
 
 
 # 全文检索框架的配置
