@@ -83,8 +83,8 @@ class IndexGoodsBanner(BaseModel):
         verbose_name = '首页轮播商品'
         verbose_name_plural = verbose_name
 
-    #    def __str__(self):
-    #        return self.sku
+    def __str__(self):
+        return str(self.sku) + '---' +str(self.index)
 
 
 class IndexTypeGoodsBanner(BaseModel):
@@ -104,8 +104,8 @@ class IndexTypeGoodsBanner(BaseModel):
         verbose_name = "主页分类展示商品"
         verbose_name_plural = verbose_name
 
-    #    def __str__(self):
-    #        return self.sku
+    def __str__(self):
+        return str(self.sku) + '---' +str(self.type)
 
 
 class IndexPromotionBanner(BaseModel):
