@@ -1,5 +1,5 @@
 
-[toc]
+
 ### DailyFreshDemo
 
 #####	天天生鲜：小型电商购物网站，基于Python3.x和Django2.x  
