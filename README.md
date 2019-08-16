@@ -50,7 +50,7 @@ cart
 admin
 ![image](https://github.com/CarrymeQUQ/myimages/blob/master/images/0AMDD(TXO9~N)HR%60%40I3%5D5Z2.png)
 
-[更多页面]:https://github.com/CarrymeQUQ/myimages/tree/master/images
+[更多页面] :https://github.com/CarrymeQUQ/myimages/tree/master/images
 
 ***
 
