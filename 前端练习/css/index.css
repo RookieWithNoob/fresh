@@ -1,0 +1,94 @@
+
+#navbar-brand{
+	padding: 5px 15px;
+}
+
+.navbar-brand img{
+	width: 72px;
+	height: 40px;
+}
+
+#userimg img{
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+	/*border-radius: 50%;*/
+}
+
+/*@unread-message: @brand-danger;*/
+.usermessage .badge{
+	background-color: #d9534f;
+	margin-top: -18px; 
+	border-radius: 5px;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+#jumbotron1 {
+  	margin-bottom: 0px;
+  	padding-bottom: 35px;
+  	background: url(../images/banner_bg.jpg) no-repeat center center;
+}
+
+.banner-title{
+	margin-top: 24px;
+}
+
+@media (max-width: 1200px){
+	.banner-title{
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 992px){
+	.banner-title{
+		margin-top: 0px;
+	}
+}
+
+.banner-detail-title{
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+#jumbotron1 p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 28px;
+	text-indent: 30px;
+}
+
+#jumbotron1 .basket{
+	margin-top: -205px;
+	margin-left: -50px;
+}
+
+.active-info{
+	margin-left:0px;
+	margin-right: 0px;
+}
+
+.active-info p{
+	line-height: 28px;
+	text-indent: 30px;
+}
+
+.col-sm-6{
+	text-align: center;
+}
+
+#jumbotron2{
+	background-color: #fff;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.footer-link{
+	text-align: center;
+}
+
+.glyphicon-star-empty{
+	top: 4px;
+}
