@@ -2,7 +2,7 @@
 
 ### DailyFreshDemo
 
-#####	天天生鲜：小型电商购物网站，基于Python3.x和Django2.x  
+#####	天天生鲜：小型电商购物网站，基于Python3.x和Django1.8 
 
 ​	项目尽量使用Django内部提供的API,后台管理为Django自带的管理系统django-admin,适合Django的小型实战项目。
 
